@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h
+#include "main.h"
 
 /**
 * main - prints the minimum number of coins to
@@ -34,6 +34,6 @@ result++;
 num -= coins[j];
 }
 }
-printf("%d\n", result);
+printf("%d\n",result);
 return (0);
 }
