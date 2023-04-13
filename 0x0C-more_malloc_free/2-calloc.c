@@ -18,6 +18,7 @@ s[i] = b;
 }
 return (s);
 }
+
 /**
 * *_calloc - allocates memory for an array
 * @nmemb: number of elements in the array
@@ -35,5 +36,4 @@ if (ptr == NULL)
 return (NULL);
 _memset(ptr, 0, nmemb * size);
 return (ptr);
-}
 }
