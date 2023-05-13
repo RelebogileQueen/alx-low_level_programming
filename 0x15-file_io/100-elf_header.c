@@ -222,7 +222,6 @@ printf("<unknown: %x>\n", e_type);
 * @e_ident: A pointer to an array containing the ELF class.
 */
 
-void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
 printf(" Entry point address: ");
 if (e_ident[EI_DATA] == ELFDATA2MSB)
