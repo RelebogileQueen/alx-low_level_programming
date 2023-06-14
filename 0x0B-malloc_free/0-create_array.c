@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>                
+#include <stdlib.h>
 
 /**
 * create_array - create array of size size and assign char c
@@ -8,7 +8,7 @@
 * Description: creat array of size size and assign char c
 * Return: pointer to array, NULL if fail
 */
-                
+
 char *create_array(unsigned int size, char c)
 {
 char *str;
